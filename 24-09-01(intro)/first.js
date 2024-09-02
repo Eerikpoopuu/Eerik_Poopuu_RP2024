@@ -27,3 +27,7 @@ console.log(nested(3)(4));
 const nestedarrow = (num1)=> (num2) => num1 +num2 ;
 
 console.log(nestedarrow(3)(4))
+
+const greet = (name) => `Hello ${name}`;
+
+console.log(greet("EErik"));
