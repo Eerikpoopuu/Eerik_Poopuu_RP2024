@@ -5,7 +5,7 @@ import PropDrilling from "./components/PropDrilling"
 import Show from "./components/Show"
 import Context from "./components/Context"
 import User from "./components/Me"
-
+import "./App.css";
 
 function App() {
   const [show, setShow] = useState(true)
