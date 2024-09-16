@@ -19,8 +19,8 @@ function App() {
         toggleShow={toggleShow}
       />
       <PropDrilling />
-      <Counter />
-      <Name title="Raimo" />
+      <Counter /> 
+      <Name title="Eerik" />
       <Name />
     </>
   )
