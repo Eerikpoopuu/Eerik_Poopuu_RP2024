@@ -1,16 +1,17 @@
 import React, { useState } from "react"
 import "./App.css"
-import Name from "./components/Name"
 import Counter from "./components/Counter"
 import PropDrilling from "./components/PropDrilling"
 import Show from "./components/Show"
 import Context from "./components/Context"
+import User from "./components/Me"
+
 
 function App() {
   const [show, setShow] = useState(true)
 
   const toggleShow = () => setShow(prevShow => !prevShow)
-
+  const hobbies =["Jalgpall", "Arvutimägud", "Söömine"];
   return (
     <>
       <Context />
@@ -20,8 +21,7 @@ function App() {
       />
       <PropDrilling />
       <Counter /> 
-      <Name title="Eerik" />
-      <Name />
+      <User name="Eerik" hobbies= {hobbies} />
     </>
   )
 }
