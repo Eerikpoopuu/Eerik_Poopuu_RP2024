@@ -9,6 +9,7 @@ const User = (props) => {
   const Messagetext = (x) => setMessage(x.target.value);
   const Submit = (x) => {
     x.preventDefault();
+    
     alert(`E-mail: ${email}\nSõnum: ${message}`);
   };
 
