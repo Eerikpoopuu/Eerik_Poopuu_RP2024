@@ -17,7 +17,7 @@ const theme = createTheme({
       paper: '#212121', 
     },
     text: {
-      primary: '#FFFFFF', 
+      primary: '#800080', 
       secondary: '#D5006D',
     },
   },
