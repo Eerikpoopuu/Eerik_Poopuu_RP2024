@@ -2,7 +2,7 @@ import "./App.css";
 import Cats from "./componets/Cats";
 import Todos from "./componets/todos";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { green, purple } from '@mui/material/colors';
+
 
 const theme = createTheme({
   palette: {
